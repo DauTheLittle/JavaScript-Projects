@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Mix of projects from JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="containerHeader">
+            <img class="header" src="sky.jpg" alt="">
+            <div class="headerSquareUp"></div>
+            <div class="headerSquareDown"> JavaScript Projects </div>
+        </div>
+
+        <div class="containerTiles">
+            <!--############################### 2.1.Square ###############################-->
+            <div id="square">
+                <h3>NUMBERS INCREASE BY 1, EVERY 5TH ELEMENT HAS SPECIAL DESIGN</h3>
+                <button class="squareBtn">Increase by 1</button>
+            </div>
+
+            <!--############################### 2.Ascending Numbers ###############################-->
+            <div id="ascendingNumbers">
+                <h3>NUMBERS INCREASE BY 2, EVERY ELEMENT DIVISIBLE BY 3 IS HIGHLIGHTED</h3>
+                <button class="ascNumBtn">Add new element</button>
+                <ul></ul>
+            </div>
+            <!--############################### 3.Game rock, paper, scissors ###############################-->
+            <div>
+                <div class="game">
+                    <h3>GAME "ROCK, PAPER, SCISSORS"</h3>
+                    <div class="select">
+                        <h4>Please choose:</h4>
+                        <img class="rock" data-option="rock" src="Rock.jpg" alt="" title="rock">
+                        <img class="paper" data-option="paper" src="Paper.jpg" alt="" title="paper">
+                        <img class="scissors" data-option="scissors" src="Scissors.jpg" alt="" title="scissors">
+                    </div>
+
+                    <button class="playButton">Play</button>
+
+                    <div class="panelLeft">
+                        <h4>Score</h4>
+                        <p class="playersChoice"> Your choice: <span data-summary="players-choice"></span></p>
+                        <p class="computersChoice"> Computer's choice: <span data-summary="computers-choice"></span>
+                        </p>
+                        <h2>Winner:</h2>
+                        <span data-summary="who-wins"></span>
+                    </div>
+
+                    <div class="panelRight">
+                        <h4>General score</h4>
+                        <p class="numberOfGames">Games played: <span>0</span></p>
+                        <p class="wins">Wins: <span>0</span></p>
+                        <p class="losses">Losses: <span>0</span></p>
+                        <p class="draws">Draws: <span>0</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!--############################### 4.Cursor background-color change ###############################-->
+            <div class="bcColorCursor">
+                <h3>HOVER OVER WITH THE CURSOR TO CHANGE BACKGROUND COLOR</h3>
+                <p class="bcColorCursorXY"></p>
+            </div>
+
+            <!--############################### 5.Cursor background-color change ###############################-->
+            <div>
+                <div class="machineWritting">
+                    <h3>TYPEWRITER MAPPING</h3>
+                    <span class="textMW"></span><span class="cursor">|</span>
+                </div>
+            </div>
+
+            <!--############################### 6.Growing words ###############################-->
+            <div>
+                <h3>ELEMENTS ARE GROWING EQUALLY</h3>
+                <button class="btnGrowingWords">Start</button>
+                <p class="listGW">
+                    Hopefulness <br>
+                    Playfulness <br>
+                    Cheeriness <br>
+                    Happiness <br>
+                    Optimism <br>
+                    Euphoria <br>
+                    Paradise <br>
+                    Gaiety <br>
+                    Bliss <br>
+                    Joy
+                </p>
+            </div>
+
+            <!--############################### 7.Growing numbers ###############################-->
+            <div class="divGN">
+                <h3>ELEMENTS ARE GROWING GRADUALLY</h3>
+                <button class="btnGN">Add 10 treats</button>
+            </div>
+
+            <!--############################### 8.Click background-color change  ##########################-->
+            <div class="bcColorClick">
+                <h3>CLICK ON TILE TO CHANGE BACKGROUND COLOR</h3>
+                <p class="bcColorClickXY"></p>
+            </div>
+
+            <!--############################### 9.Moving square after click ##########################-->
+            <div class="movingSquareClick">
+                <h3>CLICK ON THE TILE AND MOVE TO CHANGE IT'S POSITION</h3>
+            </div>
+
+            <!--############################### 10.Change of background by keys ##########################-->
+            <div class="bcColorKeys">
+                <h3>HOLD KEY TO CHANGE BACKGROUND COLOR: <br>
+                    FOR WHITE: W <br>
+                    FOR BLACK: S</h3>
+            </div>
+
+            <!--############################### 11. Slider ##########################-->
+            <div>
+                <h3>SLIDER<h3>
+                        <header>
+                            <img class="sliderImg" src="images/img1.jpg" alt="">
+                            <h4 class="sliderh1">ARCHITECTURE</h4>
+                            <div class="dots">
+                                <span id="one" class="active"></span>
+                                <span id="two"></span>
+                                <span id="three"></span>
+                            </div>
+                        </header>
+            </div>
+            <!--############################### 12.Random sentence  ##########################-->
+
+            <div class="randomSentence">
+                <h3>RANDOM TASKS GENERATOR</h3>
+                <button class="btnRS">Hard time to decide who does the tasks today? Let the luck decide.</button>
+                <span class="underlineRS"></span>
+            </div>
+
+            <!--############################### 13.Random jokes generator  ##########################-->
+            <div class="randomAdvice">
+                <h3>RANDOM JOKES GENERATOR</h3>
+                <form action="">
+                    <label>Add next not funny joke: </label><input type="text">
+                    <button class="add">Add</button>
+                    <button class="clean">Reset</button>
+                </form>
+                <h2>Show me something lame for a better day...</h2>
+                <button class="showAdvice">Show random joke</button>
+                <button class="showOptions">Show all creepy jokes</button>
+                <h3 class="jokeContainer"></h3>
+            </div>
+
+            <!--############################### 14. Time counter  ##########################-->
+
+            <div class="timeCounter">
+                <h3>HOW LONG ARE YOU ON THAT WEBSITE? </h3>
+                <h2 class="timeNumber"></h2>
+            </div>
+
+            <!--############################### 15.Scroll circle ###########################-->
+            <div class="containerCircle">
+                <h3>ENLARGING CIRCLE</h3>
+                <div class="scrollCircle"></div>
+            </div>
+
+            <!--############################### 16.Rectangle scroll ##########################-->
+            <div class="containerRectangle">
+                <h3>ENLARGING RECTANGLE</h3>
+                <div class="rectangleAppear"></div>
+            </div>
+            <!--############################ 17. Walking man from Texas ##########################-->
+
+            <div>
+                <h3>WALKING MAN FROM TEXAS</h3>
+                <div id="walker"></div>
+                <div id="road"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
